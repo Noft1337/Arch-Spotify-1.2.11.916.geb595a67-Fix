@@ -9,7 +9,7 @@ The PKGBUILD file tries to get `Spotify v1.2.9.743.g85d9593d`
 So if you are experiencing issues with a different version this would not work. 
 **However**, I will add a quick fix/workaround for other versions in the bottom of the `README`
 
-## Fix
+# Fix
 to fix this issue first run this command to update the `PGP Public Key`:
 ```bash
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | gpg --import -
@@ -18,7 +18,7 @@ and then copy `PKGBUILD` to your cloned `AUR Spotify` and run:
 `makepkg -Si && makepkg -i` 
 Spotify will now be installed.
 
-### Workaround 
+# Workaround 
 If you're experiencing this with a different spotify version then follow these steps and you should be good to go.
 verify which spotify version actually exists in [here](http://repository.spotify.com/pool/non-free/s/spotify-client/)
 and then get the version of it and change it in `PKGBUILD` **(I've also added little comments to show where to change the parameters)**
