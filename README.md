@@ -1,5 +1,6 @@
 # Arch-Spotify-Fix
 PKGBUILD tries to get a spotify version that doesn't exist and shows this error: 
+
 Failure while downloading http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.9.743.g85d9593d_amd64.
         Aborting...  
 ![image](https://github.com/Noft1337/Arch-Spotify-1.2.11.916.geb595a67-Fix/assets/101609620/5bfaa393-7e17-4169-ab40-168bdb5c0437)
